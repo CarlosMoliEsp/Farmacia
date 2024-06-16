@@ -1,0 +1,24 @@
+{
+    "name": "bcp/proyecto_pruebas",
+    "description": "proyecto de prueba",
+    "authors": [
+        {
+            "name": "bcp"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.3",
+        "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*",
+        "phpmailer/phpmailer": "^6.8",
+        "curl/curl": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./Controllers",
+            "Models\\" : "./Models",
+            "Lib\\" : "./Lib"
+        }
+    }
+}

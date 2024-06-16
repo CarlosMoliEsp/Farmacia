@@ -1,0 +1,22 @@
+# Archivos del editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Dependencias de Composer
+/vendor/
+/node_modules/
+
+# Archivos de configuración locales
+.env
+
+# Archivos de caché
+cache/
+tmp/
+
+# Archivos de registro
+*.log
+logs/
+
+#Base de datos
+.config
